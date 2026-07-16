@@ -38,7 +38,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed frontend API path construction for production builds
 - Resolved WebSocket dynamic port detection
 - Fixed proxy bypass handling in profile configurations
-- **Windows:** Fixed DLL loading issue where backend.exe crashed on startup with `python311.dll not found` (exit code -1073741515)
 
 ### Technical
 - Backend: FastAPI + SQLite + aiosqlite
@@ -86,43 +85,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [Future Versions]
-
-### [1.1.0] - Planned
-- Settings and preferences system
-- Persistent user configurations
-- Theme customization options
-- Enhanced import/export functionality
-- Performance optimizations
-
-### [1.2.0] - Planned
-- Teams and collaboration features
-- Multi-user access control
-- Role-based permissions
-- Shared profile access
-- Team usage analytics
-
-### [2.0.0] - Planned
-- Automation engine with rule-based workflows
-- Cron scheduling for profile launches
-- Webhook integrations and notifications
-- API access for programmatic control
-- Advanced automation rules
-
----
-
 ## Version Summary
 
-| Version | Date | Status | Key Features |
-|---------|------|--------|--------------|
-| 0.1.0 | 2024-05-17 | ✅ Released | Core profile management, proxy integration, basic UI |
-| 1.0.0 | TBD | 🚧 Current | Extensions, folders, templates, Vue 3 UI, WebSocket |
-| 1.1.0 | TBD | 📋 Planned | Settings system, enhanced customization |
-| 1.2.0 | TBD | 📋 Planned | Teams collaboration, multi-user support |
-| 2.0.0 | TBD | 📋 Planned | Automation engine, API access, workflows |
+| Version | Date | Key Features |
+|---------|------|--------------|
+| 0.1.0 | 2024-05-17 | Core profile management, proxy integration, basic UI |
+| 1.0.0 | Current | Extensions, folders, templates, Vue 3 UI, WebSocket |
+| 1.1.0 | Planned | Settings system, enhanced customization |
+| 1.2.0 | Planned | Teams collaboration, multi-user support |
+| 2.0.0 | Planned | Automation engine, API access, workflows |
 
 ---
 
 ## Support
 
-For issues, questions, or suggestions, please use the GitHub issue tracker.
+For issues, questions, or suggestions, please use the [GitHub issue tracker](https://github.com/arkdemiatop/ctrldlogin/issues).
