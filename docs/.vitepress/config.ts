@@ -4,19 +4,21 @@ export default defineConfig({
   title: 'ctrldlogin',
   description: 'Desktop application for managing multiple isolated browser profiles with unique fingerprints',
   lang: 'en-US',
+  base: '/ctrldlogin/',
 
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }],
+    ['link', { rel: 'icon', href: '/ctrldlogin/logo.svg' }],
+    ['meta', { name: 'theme-color', content: '#0f172a' }],
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/ctrldlogin/logo.svg',
 
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started' },
       { text: 'Features', link: '/features' },
-      { text: 'API Reference', link: '/api-guide' },
+      { text: 'API', link: '/api-guide' },
       { text: 'Changelog', link: '/changelog' },
       { text: 'Downloads', link: 'https://github.com/arkdemiatop/ctrldlogin/releases' },
     ],
@@ -25,7 +27,7 @@ export default defineConfig({
       {
         text: 'Guide',
         items: [
-          { text: 'Home', link: '/' },
+          { text: 'Overview', link: '/' },
           { text: 'Getting Started', link: '/getting-started' },
           { text: 'Features', link: '/features' },
         ],
@@ -45,7 +47,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'ctrldlogin',
+      copyright: 'Copyright © 2024 ctrldlogin',
     },
 
     search: {
