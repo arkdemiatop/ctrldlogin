@@ -121,6 +121,17 @@
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
 }
 
+.VPHomeHero .image-container {
+  max-width: 520px !important;
+}
+
+.VPHomeHero .image-src {
+  border-radius: 10px;
+  border: 1px solid var(--vp-c-border);
+  max-width: 100%;
+  height: auto;
+}
+
 /* Feature cards */
 .VPFeature {
   border: 1px solid var(--vp-c-border) !important;
