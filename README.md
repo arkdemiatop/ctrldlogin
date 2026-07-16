@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arkdemiatop/ctrldlogin/main/assets/logo-dark.svg">
-    <img alt="ctrldlogin" src="https://raw.githubusercontent.com/arkdemiatop/ctrldlogin/main/assets/logo-light.svg" width="480">
+    <img alt="ctrldlogin" src="https://raw.githubusercontent.com/arkdemiatop/ctrldlogin/main/assets/logo-light.svg" width="420">
   </picture>
 </p>
 

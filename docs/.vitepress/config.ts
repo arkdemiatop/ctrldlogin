@@ -7,8 +7,12 @@ export default defineConfig({
   base: '/ctrldlogin/',
 
   head: [
-    ['link', { rel: 'icon', href: '/ctrldlogin/logo.svg' }],
+    ['link', { rel: 'icon', href: '/ctrldlogin/favicon.svg' }],
+    ['link', { rel: 'apple-touch-icon', href: '/ctrldlogin/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#0f172a' }],
+    ['meta', { name: 'og:title', content: 'ctrldlogin' }],
+    ['meta', { name: 'og:description', content: 'Desktop application for managing multiple isolated browser profiles with unique fingerprints.' }],
+    ['meta', { name: 'og:image', content: '/ctrldlogin/hero.svg' }],
   ],
 
   themeConfig: {
@@ -20,22 +24,46 @@ export default defineConfig({
       { text: 'Features', link: '/features' },
       { text: 'API', link: '/api-guide' },
       { text: 'Changelog', link: '/changelog' },
-      { text: 'Downloads', link: 'https://github.com/arkdemiatop/ctrldlogin/releases' },
+      {
+        text: 'Downloads',
+        link: 'https://github.com/arkdemiatop/ctrldlogin/releases',
+      },
     ],
 
     sidebar: [
       {
-        text: 'Guide',
+        text: 'Getting Started',
         items: [
-          { text: 'Overview', link: '/' },
-          { text: 'Getting Started', link: '/getting-started' },
-          { text: 'Features', link: '/features' },
+          { text: 'Installation', link: '/getting-started#installation' },
+          { text: 'First Launch', link: '/getting-started#first-launch' },
         ],
       },
       {
-        text: 'Reference',
+        text: 'Features',
         items: [
-          { text: 'API Reference', link: '/api-guide' },
+          { text: 'Profile Management', link: '/features#profile-management' },
+          { text: 'Fingerprinting', link: '/features#browser-fingerprinting' },
+          { text: 'Proxy Management', link: '/features#proxy-management' },
+          { text: 'Extensions', link: '/features#extensions' },
+          { text: 'Organization', link: '/features#organization' },
+          { text: 'Interface', link: '/features#interface' },
+        ],
+      },
+      {
+        text: 'API Reference',
+        items: [
+          { text: 'Profiles', link: '/api-guide#profiles' },
+          { text: 'Proxies', link: '/api-guide#proxies' },
+          { text: 'Extensions', link: '/api-guide#extensions' },
+          { text: 'Folders', link: '/api-guide#folders' },
+          { text: 'Templates', link: '/api-guide#templates' },
+          { text: 'System', link: '/api-guide#system' },
+          { text: 'WebSocket', link: '/api-guide#websocket' },
+        ],
+      },
+      {
+        text: 'Release History',
+        items: [
           { text: 'Changelog', link: '/changelog' },
         ],
       },
@@ -47,7 +75,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024 ctrldlogin',
+      copyright: 'ctrldlogin',
     },
 
     search: {

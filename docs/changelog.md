@@ -1,11 +1,8 @@
 # Changelog
 
-All notable changes to ctrldlogin will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
 ## [Unreleased]
+
+<span class="badge badge-current">Current</span>
 
 ### Added
 - Vue 3 + Vite frontend with modern component-based architecture
@@ -40,15 +37,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed proxy bypass handling in profile configurations
 
 ### Technical
-- Backend: FastAPI + SQLite + aiosqlite
-- Frontend: Vue 3 + Vite + Pinia
-- Desktop: Tauri 2.0 + Rust
-- Build: Nuitka (Python) + Cargo (Rust)
-- Total binary size: ~89 MB (browser engine downloaded separately)
+- **Backend:** FastAPI + SQLite + aiosqlite
+- **Frontend:** Vue 3 + Vite + Pinia
+- **Desktop:** Tauri 2.0 + Rust
+- **Build:** Nuitka (Python) + Cargo (Rust)
+- **Size:** ~89 MB (browser engine downloaded separately)
 
 ---
 
 ## [0.1.0] - 2024-05-17
+
+<span class="badge badge-released">Released</span>
 
 ### Added
 - Initial release
@@ -87,16 +86,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Version Summary
 
-| Version | Date | Key Features |
-|---------|------|--------------|
-| 0.1.0 | 2024-05-17 | Core profile management, proxy integration, basic UI |
-| 1.0.0 | Current | Extensions, folders, templates, Vue 3 UI, WebSocket |
-| 1.1.0 | Planned | Settings system, enhanced customization |
-| 1.2.0 | Planned | Teams collaboration, multi-user support |
-| 2.0.0 | Planned | Automation engine, API access, workflows |
+| Version | Date | Badge | Key Features |
+|---------|------|-------|--------------|
+| 0.1.0 | 2024-05-17 | <span class="badge badge-released">Released</span> | Core profile management, proxy integration, basic UI |
+| 1.0.0 | Current | <span class="badge badge-current">Current</span> | Extensions, folders, templates, Vue 3 UI, WebSocket |
+| 1.1.0 | Planned | <span class="badge badge-planned">Planned</span> | Settings system, enhanced customization |
+| 1.2.0 | Planned | <span class="badge badge-planned">Planned</span> | Teams collaboration, multi-user support |
+| 2.0.0 | Planned | <span class="badge badge-planned">Planned</span> | Automation engine, API access, workflows |
 
 ---
 
-## Support
-
-For issues, questions, or suggestions, please use the [GitHub issue tracker](https://github.com/arkdemiatop/ctrldlogin/issues).
+For issues, questions, or suggestions, use the [GitHub issue tracker](https://github.com/arkdemiatop/ctrldlogin/issues).

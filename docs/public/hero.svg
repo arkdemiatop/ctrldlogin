@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="600" height="440" rx="0" fill="url(#bg)"/>
+  <!-- Window chrome -->
+  <rect x="30" y="20" width="540" height="400" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="30" y="20" width="540" height="40" rx="12" fill="#1a1f2e"/>
+  <rect x="30" y="50" width="540" height="10" fill="#1a1f2e"/>
+  <circle cx="52" cy="40" r="6" fill="#ef4444"/>
+  <circle cx="72" cy="40" r="6" fill="#eab308"/>
+  <circle cx="92" cy="40" r="6" fill="#22c55e"/>
+  <!-- Sidebar -->
+  <rect x="50" y="80" width="120" height="320" rx="8" fill="#1a1f2e"/>
+  <rect x="62" y="96" width="96" height="10" rx="3" fill="#334155"/>
+  <rect x="62" y="116" width="96" height="10" rx="3" fill="#334155"/>
+  <rect x="62" y="136" width="96" height="10" rx="3" fill="#e94560" opacity="0.3"/>
+  <rect x="62" y="156" width="96" height="10" rx="3" fill="#334155"/>
+  <rect x="62" y="176" width="96" height="10" rx="3" fill="#334155"/>
+  <!-- Profile cards -->
+  <!-- Card 1 -->
+  <rect x="188" y="80" width="362" height="90" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="204" y="96" width="40" height="40" rx="8" fill="url(#card1)"/>
+  <text x="224" y="121" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">P</text>
+  <text x="256" y="114" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Profile Alpha</text>
+  <text x="256" y="132" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Windows 11 · Chrome 125</text>
+  <circle cx="476" cy="106" r="6" fill="#22c55e"/>
+  <text x="488" y="110" font-family="system-ui, sans-serif" font-size="11" fill="#22c55e">Running</text>
+  <rect x="460" y="142" width="74" height="18" rx="4" fill="#334155"/>
+  <text x="497" y="155" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Launch</text>
+  <!-- Card 2 -->
+  <rect x="188" y="184" width="362" height="90" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="204" y="200" width="40" height="40" rx="8" fill="url(#card2)"/>
+  <text x="224" y="225" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">W</text>
+  <text x="256" y="218" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Work Profiles</text>
+  <text x="256" y="236" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">macOS 14 · Safari 17</text>
+  <circle cx="476" cy="210" r="6" fill="#64748b"/>
+  <text x="488" y="214" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Idle</text>
+  <rect x="460" y="246" width="74" height="18" rx="4" fill="#334155"/>
+  <text x="497" y="259" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Launch</text>
+  <!-- Card 3 -->
+  <rect x="188" y="288" width="362" height="90" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="204" y="304" width="40" height="40" rx="8" fill="url(#card3)"/>
+  <text x="224" y="329" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">T</text>
+  <text x="256" y="322" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Testing Env</text>
+  <text x="256" y="340" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Linux · Chromium 124</text>
+  <circle cx="476" cy="314" r="6" fill="#eab308"/>
+  <text x="488" y="318" font-family="system-ui, sans-serif" font-size="11" fill="#eab308">Paused</text>
+  <rect x="460" y="350" width="74" height="18" rx="4" fill="#334155"/>
+  <text x="497" y="363" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Launch</text>
+  <!-- Status bar -->
+  <rect x="50" y="382" width="500" height="18" rx="4" fill="#1a1f2e"/>
+  <circle cx="62" cy="391" r="3" fill="#22c55e"/>
+  <text x="70" y="395" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">3 profiles · 1 running · Proxy: None</text>
+</svg>
