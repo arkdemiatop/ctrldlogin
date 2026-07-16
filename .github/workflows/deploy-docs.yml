@@ -3,10 +3,7 @@ name: Deploy Vitepress docs
 on:
   push:
     branches: [main]
-    paths:
-      - 'docs/**'
-      - 'package.json'
-      - '.github/workflows/deploy-docs.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read
