@@ -12,7 +12,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#0f172a' }],
     ['meta', { name: 'og:title', content: 'ctrldlogin' }],
     ['meta', { name: 'og:description', content: 'Desktop application for managing multiple isolated browser profiles with unique fingerprints.' }],
-    ['meta', { name: 'og:image', content: '/ctrldlogin/hero.svg' }],
+    ['meta', { name: 'og:image', content: '/ctrldlogin/screenshot.png' }],
   ],
 
   themeConfig: {
@@ -23,6 +23,7 @@ export default defineConfig({
       { text: 'Getting Started', link: '/getting-started' },
       { text: 'Features', link: '/features' },
       { text: 'API', link: '/api-guide' },
+      { text: 'FAQ', link: '/faq' },
       { text: 'Changelog', link: '/changelog' },
       {
         text: 'Downloads',
@@ -62,8 +63,10 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Release History',
+        text: 'Resources',
         items: [
+          { text: 'FAQ', link: '/faq' },
+          { text: 'Privacy', link: '/privacy' },
           { text: 'Changelog', link: '/changelog' },
         ],
       },

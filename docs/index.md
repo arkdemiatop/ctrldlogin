@@ -6,8 +6,8 @@ hero:
   text: Isolated browser profiles.<br>Unique fingerprints.
   tagline: Desktop application for managing multiple isolated browser profiles — each with its own unique digital fingerprint, proxy, and identity.
   image:
-    src: /ctrldlogin/hero.svg
-    alt: ctrldlogin app preview
+    src: /ctrldlogin/screenshot.png
+    alt: ctrldlogin app screenshot
   actions:
     - theme: brand
       text: Download Now
@@ -24,7 +24,7 @@ features:
     details: Create, edit, duplicate, or delete profiles. Track status, organize with tags, search everything with full-text search. Batch operations across multiple profiles.
     icon: '🗂️'
   - title: Browser Fingerprinting
-    details: Deterministic SHA-256 seeds. Spoof platform, GPU, WebRTC, timezone, locale, CPU, RAM, screen, audio context, and fonts. Test at browserscan.net.
+    details: Deterministic seeds. Spoof platform, GPU, WebRTC, timezone, locale, CPU, RAM, screen, audio context, and fonts. Test at browserscan.net.
     icon: '🛡️'
   - title: Proxy Integration
     details: Add proxies per-profile. Test connectivity with latency and external IP resolution. WebRTC automatically matches your proxy exit IP.
@@ -36,6 +36,6 @@ features:
     details: Folders, templates, tags, context menus, keyboard shortcuts. Save and load profile configurations as reusable presets.
     icon: '📁'
   - title: Cross-Platform
-    details: Windows, macOS, Linux. Dark/light themes. Real-time WebSocket updates. All data stored locally — no cloud dependency.
+    details: Windows, macOS, Linux. Dark/light themes. Real-time updates. All data stored locally — no cloud dependency.
     icon: '💻'
 ---

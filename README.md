@@ -26,6 +26,10 @@
 - QA testers needing isolated browser environments
 - Anyone who needs separate browser profiles with distinct fingerprints
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="ctrldlogin interface" width="720">
+</p>
+
 ---
 
 ## Download
@@ -82,6 +86,8 @@ Full documentation at **[arkdemiatop.github.io/ctrldlogin](https://arkdemiatop.g
 - [Getting Started Guide](docs/getting-started.md)
 - [Feature Overview](docs/features.md)
 - [API Reference](docs/api-guide.md)
+- [FAQ](docs/faq.md)
+- [Privacy](docs/privacy.md)
 - [Changelog](CHANGELOG.md)
 
 ---

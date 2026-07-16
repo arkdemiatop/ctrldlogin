@@ -1,5 +1,7 @@
 # Getting Started
 
+<img src="./getting-started-screenshot.png" alt="ctrldlogin interface" style="border-radius: 10px; border: 1px solid var(--vp-c-border); margin-bottom: 1.5rem; width: 100%;">
+
 ## System Requirements
 
 <div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
@@ -29,9 +31,9 @@ Download the latest release for your operating system from the [Releases page](h
 
 | Platform | Formats | Size |
 |----------|---------|------|
-| Linux | `.AppImage` or `.deb` | ~89 MB |
-| macOS | `.dmg` or `.app` | ~89 MB |
-| Windows | `.msi` or `.exe` | ~89 MB |
+| Linux | `.AppImage`, `.deb`, `.rpm` | ~89 MB |
+| macOS | `.dmg` (Intel & Apple Silicon) | ~89 MB |
+| Windows | `.exe` (portable), `.msi` (installer) | ~89 MB |
 
 > The browser engine (~200 MB) is downloaded automatically on first launch.
 
@@ -50,21 +52,31 @@ chmod +x ctrldlogin-*.AppImage
 sudo dpkg -i ctrldlogin-*.deb
 ```
 
+**Fedora / RHEL (rpm):**
+```bash
+sudo rpm -ivh ctrldlogin-*.rpm
+```
+
 ### macOS
+
+The `.dmg` comes in two variants:
+- **`_aarch64.dmg`** — for Apple Silicon (M1, M2, M3, M4)
+- **`_amd64.dmg`** — for Intel-based Macs
 
 1. Open the downloaded `.dmg` file
 2. Drag the app into the **Applications** folder
-3. If macOS blocks the app, go to **System Settings → Privacy & Security** and click **Open Anyway**
+3. If macOS blocks the app (unsigned), go to **System Settings → Privacy & Security** and click **Open Anyway** next to the ctrldlogin message — this is only needed once
 
 ### Windows
 
-Run the `.msi` installer and follow the prompts, or extract the `.exe` portable version to any folder.
+- **`.msi`** — Installs to Program Files, adds Start Menu entry
+- **`.exe`** — Portable version, run from any folder
 
 ---
 
 ## First Launch
 
-1. **Launch the application** — the browser engine will download automatically (~200 MB, one-time)
+1. **Launch the application** — the browser engine will download automatically (~200 MB, one-time). This may take a few minutes depending on your connection speed.
 2. **Create your first profile:**
    - Click **New Profile** in the top bar
    - Give it a name (the name determines its digital fingerprint)
@@ -86,8 +98,21 @@ Run the `.msi` installer and follow the prompts, or extract the `.exe` portable 
 
 Launch a profile and visit [browserscan.net](https://browserscan.net) to verify your browser fingerprint is properly spoofed.
 
+## Data Storage Locations
+
+Your profiles, configurations, and browser data are stored in:
+
+| Platform | Location |
+|----------|----------|
+| Linux | `~/.local/share/ctrldlogin/` |
+| macOS | `~/Library/Application Support/ctrldlogin/` |
+| Windows | `%APPDATA%/ctrldlogin/` |
+
+You can back up or migrate profiles by copying the entire directory.
+
 ## Next Steps
 
 - Explore [all features](/features)
 - Read the [API reference](/api-guide) for programmatic control
-- Check the [changelog](/changelog) for what's new
+- Check the [FAQ](/faq) for common questions
+- Review the [privacy policy](/privacy)
