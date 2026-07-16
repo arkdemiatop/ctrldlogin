@@ -7,16 +7,16 @@ export default defineConfig({
   base: '/ctrldlogin/',
 
   head: [
-    ['link', { rel: 'icon', href: '/ctrldlogin/favicon.svg' }],
-    ['link', { rel: 'apple-touch-icon', href: '/ctrldlogin/logo.svg' }],
+    ['link', { rel: 'icon', href: '/favicon.svg' }],
+    ['link', { rel: 'apple-touch-icon', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#0f172a' }],
     ['meta', { name: 'og:title', content: 'ctrldlogin' }],
     ['meta', { name: 'og:description', content: 'Desktop application for managing multiple isolated browser profiles with unique fingerprints.' }],
-    ['meta', { name: 'og:image', content: '/ctrldlogin/screenshot.png' }],
+    ['meta', { name: 'og:image', content: '/screenshot.png' }],
   ],
 
   themeConfig: {
-    logo: '/ctrldlogin/logo.svg',
+    logo: '/logo.svg',
 
     nav: [
       { text: 'Home', link: '/' },

@@ -6,7 +6,7 @@ hero:
   text: Isolated browser profiles.<br>Unique fingerprints.
   tagline: Desktop application for managing multiple isolated browser profiles — each with its own unique digital fingerprint, proxy, and identity.
   image:
-    src: /ctrldlogin/screenshot.png
+    src: /screenshot.png
     alt: ctrldlogin app screenshot
   actions:
     - theme: brand
