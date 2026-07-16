@@ -20,7 +20,7 @@ The backend exposes a REST API and WebSocket server. All endpoints return JSON a
 | `POST` | `/api/profiles` | Create new profile with fingerprint config |
 | `PUT` | `/api/profiles/{name}` | Update existing profile configuration |
 | `DELETE` | `/api/profiles/{name}` | Permanently delete profile and data directory |
-| `GET` | `/api/profiles/search` | Full-text search (FTS5) by name, notes, tags, proxy |
+| `GET` | `/api/profiles/search` | Full-text search by name, notes, tags, proxy |
 | `GET` | `/api/profiles/{name}/activity` | Get profile activity log |
 
 ### Lifecycle Management

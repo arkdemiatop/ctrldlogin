@@ -9,7 +9,7 @@
 - **Profile reset** — wipe browser data while keeping the fingerprint
 - **Status tracking** — idle, running, crashed, paused
 - **Batch operations** — launch, stop, delete, or assign proxies to multiple profiles at once
-- **Full-text search** — SQLite FTS5 search across names, notes, tags, and proxies
+- **Full-text search** — search across profile names, notes, tags, and proxy labels
 - **Activity logging** — full audit trail for all profile actions
 - **Launch history** — count and timestamps per profile
 
@@ -79,10 +79,9 @@ label,protocol,host,port,username,password
 
 ## Interface
 
-**Modern, responsive UI with real-time updates.** Vue 3 single-page application with a three-panel layout. Dark and light themes. Real-time status updates via WebSocket.
+**Modern, responsive UI with real-time updates.** Three-panel layout with folders sidebar, profile list, and detail panel. Dark and light themes. Live status updates without page refresh.
 
-- **Vue 3 SPA** — component-based architecture
 - **Three-panel layout** — folders sidebar, profile list, detail panel
-- **Real-time updates** — WebSocket-based live status
-- **Dark/light themes** — user preference
+- **Real-time updates** — live status changes without refreshing
+- **Dark/light themes** — switch to your preference
 - **Responsive design** — works across screen sizes
