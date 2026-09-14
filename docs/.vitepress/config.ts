@@ -27,6 +27,14 @@ export default defineConfig({
       { text: 'FAQ', link: '/faq' },
       { text: 'Changelog', link: '/changelog' },
       {
+        text: 'Legal',
+        items: [
+          { text: 'Privacy Policy', link: '/privacy' },
+          { text: 'Terms of Service', link: '/terms' },
+          { text: 'Refund Policy', link: '/refund' },
+        ],
+      },
+      {
         text: 'Downloads',
         link: 'https://github.com/arkdemiatop/ctrldlogin/releases',
       },
@@ -67,7 +75,9 @@ export default defineConfig({
         text: 'Resources',
         items: [
           { text: 'FAQ', link: '/faq' },
-          { text: 'Privacy', link: '/privacy' },
+          { text: 'Privacy Policy', link: '/privacy' },
+          { text: 'Terms of Service', link: '/terms' },
+          { text: 'Refund Policy', link: '/refund' },
           { text: 'Changelog', link: '/changelog' },
         ],
       },
@@ -78,7 +88,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Commercial software. See the <a href="/ctrldlogin/terms">Terms of Service</a> and <a href="https://github.com/arkdemiatop/ctrldlogin/blob/main/LICENSE">License</a>.',
       copyright: 'ctrldlogin',
     },
 

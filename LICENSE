@@ -1,21 +1,69 @@
-MIT License
+ctrldlogin Software License Agreement
 
-Copyright (c) 2024 arkdemia
+Copyright (c) 2024–2026 stuffules frameworks ("Licensor"). All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This is a proprietary software license, not an open-source license. ctrldlogin
+is closed-source, commercial software distributed under a paid subscription
+model. By downloading, installing, or using the Software, you ("Licensee")
+agree to the terms below. See also the Terms of Service
+(https://arkdemiatop.github.io/ctrldlogin/terms) for the full agreement
+governing your use of the Software and its related services.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. License Grant
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+   Subject to an active, paid subscription tier (or the free tier, where
+   applicable) and compliance with this Agreement, Licensor grants Licensee a
+   personal, non-exclusive, non-transferable, revocable license to install and
+   use the Software on devices up to the number permitted by Licensee's
+   current subscription tier.
+
+2. Restrictions
+
+   Licensee may not:
+   - Redistribute, sell, lease, sublicense, or otherwise transfer the
+     Software or any license key to any third party.
+   - Reverse engineer, decompile, or disassemble the Software, except to the
+     extent such restriction is prohibited by applicable law.
+   - Remove or alter any copyright, trademark, or other proprietary notices.
+   - Use the Software for any unlawful purpose, or to violate the rights of
+     any third party.
+   - Circumvent or attempt to circumvent any licensing, activation, or
+     device-limit mechanism.
+
+3. Ownership
+
+   The Software is licensed, not sold. Licensor retains all right, title, and
+   interest in and to the Software, including all intellectual property
+   rights therein. No rights are granted to Licensee other than those
+   expressly set out in this Agreement.
+
+4. Subscriptions and Termination
+
+   Continued use of paid features requires an active subscription, billed and
+   processed through Lemon Squeezy as merchant of record. This license
+   automatically terminates if Licensee's subscription lapses (reverting to
+   the free tier's limits), or immediately if Licensee breaches this
+   Agreement. Upon termination, Licensee must cease using any features beyond
+   the free tier.
+
+5. Disclaimer of Warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+6. Limitation of Liability
+
+   IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+   FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+7. Governing Law
+
+   This Agreement is governed by the laws of the State of Delaware, USA,
+   without regard to its conflict of laws principles.
+
+8. Contact
+
+   Questions about this license: gkm18686@gmail.com

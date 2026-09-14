@@ -87,14 +87,20 @@ Full documentation at **[arkdemiatop.github.io/ctrldlogin](https://arkdemiatop.g
 - [Feature Overview](docs/features.md)
 - [API Reference](docs/api-guide.md)
 - [FAQ](docs/faq.md)
-- [Privacy](docs/privacy.md)
+- [Privacy Policy](docs/privacy.md)
+- [Terms of Service](docs/terms.md)
+- [Refund Policy](docs/refund.md)
 - [Changelog](CHANGELOG.md)
 
 ---
 
+## Pricing
+
+ctrldlogin has a free tier and three paid tiers — **Starter** ($3/mo), **Pro** ($6/mo), and **Business** ($9/mo) — each raising limits on profiles, proxies, extensions, devices, and team seats. See the app's Settings for current details.
+
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+ctrldlogin is closed-source, commercial software distributed under a paid subscription model. See the [Software License Agreement](LICENSE) and [Terms of Service](docs/terms.md) for the terms governing your use of the Software.
 
 ---
 
