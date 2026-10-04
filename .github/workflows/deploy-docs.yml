@@ -1,4 +1,8 @@
-name: Deploy Vitepress docs
+name: Deploy redirect to the new site
+
+# The ctrldlogin website moved to https://gee2424.github.io/ctrldlogin/.
+# This publishes a small page (index + 404) that forwards every old URL to the
+# same page on the new site.
 
 on:
   push:
@@ -15,21 +19,15 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: redirect
       - id: deployment
         uses: actions/deploy-pages@v4
